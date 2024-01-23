@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.navbar {
+  height: 60px;
+  background-color: black;
+  border: 2px solid white;
+}
+
+#sBtn {
+  background-color: #f08804;
+  color: black;
+}
+
+#logo {
+  font-size: 25px;
+  color: #f08804;
+}
+
+a {
+  margin-right: 200px;
+  text-decoration: none; /*for remove underline*/
+}

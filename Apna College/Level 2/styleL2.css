@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.div {
+  height: 120px;
+  width: 500px;
+  background-color: pink;
+  /*  border-width: 2px;
+  border-style: dashed;
+  border-color: rgb(31, 20, 123); */
+  border: 2px dashed blue; /* width style color */
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+}
+
+h1 {
+  width: 150px;
+  height: 40px;
+  background-color: aqua;
+  border-style: solid;
+  border-color: rgb(230, 34, 207);
+  text-align: center;
+  border-width: 4px;
+}
+
+.div1 {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  border: 4px dotted yellow;
+  background-color: blueviolet;
+  color: wheat;
+  /* height = width now border-radius: 50% to make circle */
+  border-radius: 50%;
+}
+
+#div2 {
+  height: 100px;
+  width: 100px;
+  border: 4px solid rgb(171, 26, 26);
+  background-color: black;
+  color: pink;
+  /* padding: 50px; */
+  padding: 50px 20px 10px 70px; /* top/right/bottom/left->clock vise */
+  /* margin = space between 2 element */
+  margin: 30px; /*from all side*/
+  margin: 10px 2px 7px 4px; /* top/right/bottom/left->clock vise */
+}
+
+#inlineDiv {
+  background-color: rgb(139, 43, 59);
+  display: inline;
+  /* display: none; */ /*space is not occupied */
+  /* visibility: hidden; */ /* space is occupied */
+}
+
+#inlineBtn {
+  background-color: rgb(128, 40, 54);
+  display: block;
+  border: 1px solid blue;
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.5); /*opasity 0.5 -> lightRed*/
+}

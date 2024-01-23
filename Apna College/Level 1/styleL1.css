@@ -1,0 +1,29 @@
+* {
+  background-color: antiquewhite;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium";
+  font-weight: bolder;
+}
+
+/* hold button */
+button {
+  background-color: blue;
+  color: burlywood;
+}
+
+/*click button*/
+#btn {
+  background-color: rgb(179, 227, 21);
+  color: rgb(77, 34, 74);
+}
+
+#para {
+  text-transform: uppercase;
+  text-align: right;
+  text-decoration: red dashed;
+  font-size: 30px;
+  font-style: italic;
+}
