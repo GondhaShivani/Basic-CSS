@@ -1,0 +1,19 @@
+#div1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 20px solid blue;
+  border-left: 20px solid black;
+  animation: change 5s ease infinite 0s normal;
+}
+
+@keyframes change {
+  from {
+    transform: rotate(0deg);
+    border: 20px solid blue;
+  }
+  to {
+    transform: rotate(360deg);
+    border: 20px dotted blue;
+  }
+}
